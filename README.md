@@ -18,7 +18,7 @@ kraken2-build --clean --db kraken2-standard-db/
 
 
 
-## ERROR
+#### ERROR
 Kraken2: "rsync_from_ncbi.pl: unexpected FTP path (new server?) for https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/900/128/725/GCF_900128725.1_B  
 
 For those who are working with conda and facing this problem:
