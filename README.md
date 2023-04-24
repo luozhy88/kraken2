@@ -11,6 +11,9 @@ conda activate krakn2 #31 sunjialv
 kraken2-build --standard --db kraken2-standard-db/ --threads 42  
 kraken2-build --clean --db kraken2-standard-db/  
 
+## Or downloading FTP
+#wget -c https://genome-idx.s3.amazonaws.com/kraken/k2_standard_20230314.tar.gz  
+tar -zxvf k2_standard_20230314.tar.gz
 
 
 
@@ -18,7 +21,7 @@ kraken2-build --clean --db kraken2-standard-db/
 
 
 
-#### ERROR
+### ERROR
 Kraken2: "rsync_from_ncbi.pl: unexpected FTP path (new server?) for https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/900/128/725/GCF_900128725.1_B  
 
 For those who are working with conda and facing this problem:
