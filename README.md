@@ -7,7 +7,7 @@ conda create -n kraken2 -c conda-forge -c bioconda -c defaults kraken2 bracken
 conda activate krakn2 #31 sunjialv  
 
 ## Downloading and building reference database
-
+#https://benlangmead.github.io/aws-indexes/k2  
 kraken2-build --standard --db kraken2-standard-db/ --threads 42  
 kraken2-build --clean --db kraken2-standard-db/  
 
