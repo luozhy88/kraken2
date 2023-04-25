@@ -1,6 +1,6 @@
 # kraken2
 
-## 安装
+## Install
 conda create -n kraken2 -c conda-forge -c bioconda -c defaults kraken2 bracken  
 #https://hackmd.io/@astrobiomike/kraken2-bracken-standard-build  
 #https://github.com/jenniferlu717/KrakenTools  
