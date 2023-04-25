@@ -27,3 +27,6 @@ Kraken2: "rsync_from_ncbi.pl: unexpected FTP path (new server?) for https://ftp.
 For those who are working with conda and facing this problem:
 go to the anaconda folder --->then go to the folder where you installed Kraken ---->libexec----->rsync_from_ncbi.pl---->modify line 46 : https in place of ftp .... then run the command.
 It works well for me !  
+
+## Run
+bash -x kraken2.sh
