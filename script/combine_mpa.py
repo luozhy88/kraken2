@@ -72,12 +72,14 @@ def main():
     sys.stdout.write(" Number of files to parse: %i\n" % len(args.in_files))
     for in_file in args.in_files:
         i_file = open(in_file,'r')
+        print(os.path.basename(in_file))
         sample_count += 1
-        sample_name = "Sample #" + str(sample_count) 
+        sample_name = os.path.basename(in_file) + str(sample_count) 
         for line in i_file:
             #Check for header line 
             if line[0] == "#":
                 sample_name = line.strip().split('\t')[-1]
+                print(sample_name)
                 continue 
             #Otherwise
             [classification, val] = line.strip().split('\t')
@@ -140,4 +142,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
